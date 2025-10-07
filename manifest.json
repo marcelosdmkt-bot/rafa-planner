@@ -1,7 +1,7 @@
 {
-  "name": "Minhas Tarefas - Planner Diário",
-  "short_name": "Tarefas",
-  "description": "Organize suas tarefas de trabalho, casa e pessoais com sistema automático de priorização por cores",
+  "name": "Minhas Tarefas - Planner Pro",
+  "short_name": "Tarefas Pro",
+  "description": "Gerenciador completo de tarefas com edição, tags, sub-tarefas, categorias personalizadas e notificações",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#4F46E5",
@@ -22,6 +22,6 @@
       "purpose": "any maskable"
     }
   ],
-  "categories": ["productivity", "utilities"],
+  "categories": ["productivity", "utilities", "lifestyle"],
   "screenshots": []
 }
