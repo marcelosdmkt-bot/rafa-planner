@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tarefas-app-v1';
+const CACHE_NAME = 'tarefas-app-v2';
 const urlsToCache = [
   './',
   './index.html',
@@ -9,7 +9,7 @@ const urlsToCache = [
 
 // Instalar Service Worker e cachear arquivos
 self.addEventListener('install', event => {
-  console.log('Service Worker: Instalando...');
+  console.log('Service Worker: Instalando versão 2.0...');
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => {
@@ -22,7 +22,7 @@ self.addEventListener('install', event => {
 
 // Ativar Service Worker e limpar caches antigos
 self.addEventListener('activate', event => {
-  console.log('Service Worker: Ativando...');
+  console.log('Service Worker: Ativando versão 2.0...');
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
